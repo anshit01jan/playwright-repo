@@ -58,7 +58,7 @@ test("Test Get Call 5", async({request}) => {
     expect((await resp.json()).firstname).toBe("Susan")
 })
 
-test.only("Test Get Call 6", async({request}) => {
+test("Test Get Call 6", async({request}) => {
     const resp = await request.get(`/booking/2`)
     const responseBody = await resp.json()
     expect(responseBody).toMatchObject({
