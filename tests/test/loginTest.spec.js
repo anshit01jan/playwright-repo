@@ -1,5 +1,5 @@
-import { LoginPage } from "../pom/LoginPage.spec";
-import { HomePage } from "../pom/HomePage.spec";
+import { LoginPage } from "../pom/LoginPage.js";
+import { HomePage } from "../pom/HomePage.js";
 import { expect, test } from '@playwright/test';
 
 test('loginTest', async ({page}) => {
