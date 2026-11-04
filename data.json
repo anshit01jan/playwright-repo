@@ -1,0 +1,30 @@
+{
+    "username" : "Admin",
+    "password" : "admin123",
+    "candidates": [
+        {
+            "firstName" : "Anshit",
+            "middleName" : "Singh",
+            "lastName" : "Kumar",
+            "email" : "anshit.kumar@example.com",
+            "phoneNumber" : "123-456-7890",
+            "notes" : "This is a sample note."
+        },
+        {
+            "firstName" : "John",
+            "middleName" : "Doe",
+            "lastName" : "Smith",
+            "email" : "john.smith@example.com",
+            "phoneNumber" : "987-654-3210",
+            "notes" : "This is another sample note."
+        },
+        {
+            "firstName" : "Alice",
+            "middleName" : "Marie",
+            "lastName" : "Johnson",
+            "email" : "alice.johnson@example.com",
+            "phoneNumber" : "555-123-4567",
+            "notes" : "This is yet another sample note."
+        }
+    ]
+}
